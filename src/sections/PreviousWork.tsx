@@ -5,7 +5,7 @@ import { prevWorks } from "@utils/data";
 const PreviousWork = () => {
   return (
     <section id='previous-work' className='py-10'>
-      <Divider label='Other projects' />
+      <Divider label='Previous Work' />
       <div className='flex flex-col md:items-center gap-4 lg:gap-10'>
         {prevWorks.map((item, index) => (
           <WorkCard item={item} key={index} />
