@@ -16,7 +16,7 @@ const Hero = () => {
         <h2 className='text-5xl lg:text-7xl text-center font-light leading-normal'>based in Manila.</h2>
       </div>
       <a href='#work'>
-        <button className='cursor-pointer flex flex-row items-center justify-center bg-button-green px-12 py-4 font-semibold gap-1 rounded-xl lg:text-xl'>
+        <button className='cursor-pointer flex flex-row items-center justify-center bg-button-green px-12 py-4 gap-1 rounded-xl lg:text-xl'>
           Work <img className='h-5' src='/icons/arrow-down.svg' alt='arrow-down' />
         </button>
       </a>
