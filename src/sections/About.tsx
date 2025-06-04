@@ -2,12 +2,7 @@ import Divider from "@components/Divider";
 
 const About = () => {
   const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/src/assets/ShielaMaePalad_UIUX_Designer.pdf";
-    link.download = "ShielaMaePalad_UIUX_Designer.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open("/ShielaMaePalad_UIUX_Designer.pdf", "_blank");
   };
 
   return (
@@ -18,7 +13,7 @@ const About = () => {
           <img className='w-24 md:w-40 lg:w-64 object-contain object-center' src='/images/profile.png' alt='Profile' />
           <div className='md:w-1/2'>
             <h4 className='text-sm md:text-base lg:text-4xl font-500 lg:font-semibold md:font-semibold mb-2'>
-              Hi, I’m Shiela!
+              Hi, I'm Shiela!
             </h4>
             <p className='text-xs md:text-sm lg:text-2xl text-text'>
               I am currently exploring opportunities to grow as a UI/UX designer.{" "}
